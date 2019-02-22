@@ -2,7 +2,7 @@ provider:
   name: faas
   gateway: http://127.0.0.1:8080
 functions:
-  demo:
-    lang: ruby
-    handler: ./demo
-    image: burtonr/demo:latest
+  atx:
+    lang: go
+    handler: ./atx
+    image: atx:latest
